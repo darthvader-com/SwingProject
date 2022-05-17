@@ -1,29 +1,21 @@
 package swt.apps.views;
 
-import java.awt.Color;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.Font;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.HashMap;
 
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import swt.apps.common.BaseFrameView;
 import swt.apps.common.JTextFieldMaxLength;
-import swt.apps.controller.MainController;
 import swt.apps.controller.UserController;
-import java.awt.Font;
 
 @SuppressWarnings("all")
 public class SignInFrameView extends BaseFrameView {
